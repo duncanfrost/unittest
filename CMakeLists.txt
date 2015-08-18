@@ -4,4 +4,4 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (UTEST)
 
-add_executable (test test.cpp)
+add_executable (ctest test.cpp)
