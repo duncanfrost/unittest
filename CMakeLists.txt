@@ -5,6 +5,8 @@ cmake_minimum_required (VERSION 2.8.7)
 project (UTEST)
 
 add_executable(factorial test.cpp)
+add_executable(mine test2.cpp)
 
 enable_testing()
 add_test (factorial factorial)
+add_test (mine mine)
